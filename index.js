@@ -6,9 +6,9 @@ var bitcore = module.exports;
 bitcore.version = 'v' + require('./package.json').version;
 bitcore.versionGuard = function(version) {
   if (version !== undefined) {
-    var message = 'More than one instance of bitcore-lib-komodo found. ' +
-      'Please make sure to require bitcore-lib-komodo and check that submodules do' +
-      ' not also include their own bitcore-lib-komodo dependency.';
+    var message = 'More than one instance of bitcore-lib-alysides found. ' +
+      'Please make sure to require bitcore-lib-alysides and check that submodules do' +
+      ' not also include their own bitcore-lib-alysides dependency.';
     // TODO: put this back if we start versioning again
     //throw new Error(message);
   }
